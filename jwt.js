@@ -34,5 +34,5 @@ const verifyToken = (req, res, next) => {
 
 // Storage	            Pros	     Cons
 // localStorage	        Easy     	XSS risk
-// memory	           Secure    	Lost on refresh
+// memory	              Secure    	Lost on refresh
 // httpOnlycookie      Safest     	CSRF concerns
